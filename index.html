@@ -1,8 +1,14 @@
+
+
+
+////// This is a copy of the original website I created //////
+
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <title>Riley Bunch</title> 
     
@@ -16,15 +22,16 @@
   
   
   
-  .Riley {
-    margin: -2%;
-  }
+                             .Riley {
+                           margin-left: 12%;
+                            margin-top: -2%;
+                             }
   
   
   
   .Text {
-    padding-left:5%;
-    margin: 5%;
+    padding-top: 13%;
+    margin-left:5%;
     font-size: 20px;
   }
   
@@ -42,44 +49,48 @@ body {
 }
   
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
+                    .topnav {
+                   overflow: hidden;
+                      background-color: transparent;
+                      position: absolute;
+                     width: 100%;
+                     height: 1000px;
+                     margin-top: 0%;
+                      }
 
 .topnav #myLinks {
   display: none;
+ padding-left: 75%;
 }
 
 .topnav a {
   color: white;
-  padding: 4.9% 4%;
+  padding: 3% 3%;
   text-decoration: none;
   font-size: 70px;
   display: block;
 }
 
 .topnav a.icon {
-  background: #333;
-  display: flex;
+  background: transparent;
+  display: block;
   position: absolute;
-  height: 80px;
+  height: 100px;
   width: 4%;
   right: 0;
   top: 0;
 }
-  
-  
+
+
   
   .topnav a:hover {
-  color: grey;
+  color: Gray;
 }
   
 
 .active {
   background-image: url("cut.png");
-  height: 80px;
+                                                height: 100px;
  background-color: #b30000;
   color: white;
 }
@@ -87,10 +98,10 @@ body {
 
  
 
-<!-- Simulate a smartphone / tablet -->
+
 <div class="mobile-container">
 
-<!-- Top Navigation Menu -->
+
 <div class="topnav">
   
   <a href="index.html" class="active"><div class="Riley">
@@ -104,6 +115,7 @@ body {
     <a href="index.html">Home</a>
     <a href="Resume.html">Resume</a>
     <a href="Experience.html">Experience</a>
+    <a href="mailto:riley.bunch@ttu.edu">Contact</a>
     <a href="Links.html">Links</a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -114,12 +126,12 @@ body {
     
   
 <div class="Text">
-  <h1><center>Mission</center></h1>
-  <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+  <h3>Vertical Mobile Navbar</h3>
+  <p>https://pixabay.com/illustrations/detroit-city-skyline-detroit-city-5096060/</p>
   <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
 </div>
 
-<!-- End smartphone / tablet look -->
+
 </div>
 
 <script>
